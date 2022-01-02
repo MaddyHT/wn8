@@ -45,14 +45,14 @@ export function renderContent(wn8, showDisconnectedHint, showErrorFetchingExpect
             <div class="label">WN8</div>
             <div class="win-rate">${renderWn8(wn8)}</div>
             <div class="disconnected-hint">
-                Disconnected.<br>
-                Could not connect to the battle results server.<br>
-                Make sure that WoT is running and that the battle results server mod is installed correctly.<br>
-                Refresh this page to reconnect.
+                Отключено.<br>
+                Не могу подключиться к Battle Results Server.<br>
+                Проверьте запущен ли процесс WoT.exe и корректность установки мода Battle Results Server.<br>
+                Перезагрузите эту страницу для переподключения.
             </div>
             <div class="error-fetching-hint">
                 Could not fetch the WN8 expected values.<br>
-                Refresh this page to retry.
+                Перезагрузите эту страницу для переподключения.
             </div>
         </div>
     `;
